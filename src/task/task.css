@@ -1,0 +1,176 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+}
+
+form {
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 95%;
+    margin: 10px;
+}
+
+
+h1 {
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+form .séparation {
+    border-top: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+form .corps-formulaire {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+form .corps-formulaire .contenu {
+    width: 100%;
+}
+
+form .corps-formulaire .boite {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form .séparation {
+    border-top: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+form .corps-formulaire .contenu .boite input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 10px;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 5px;
+}
+
+form .pied-formulaire {
+    text-align: center;
+}
+
+form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form .pied-formulaire button:hover {
+    transform: scale(1.1);
+}
+
+
+/* Partie responsive  */
+@media screen and (max-width: 640px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid;
+    word-wrap: break-word;
+    overflow-x: auto;
+    table-layout: fixed;
+}
+
+td.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+td.title {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+thead {
+    background-color: #864aca;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+button {
+
+    margin-top: 10px;
+    background-color: #864aca;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.trash {
+    background-image: url(../images/trash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tab {
+    overflow-x: auto;
+  }
